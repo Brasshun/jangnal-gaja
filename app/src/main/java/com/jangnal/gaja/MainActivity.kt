@@ -17,9 +17,16 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
 
 class MainActivity : ComponentActivity() {
+    private lateinit var appUpdateManager: com.google.android.play.core.appupdate.AppUpdateManager
+    private val UPDATE_REQUEST_CODE = 999
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         
+        // Initialize AppUpdateManager
+        appUpdateManager = com.google.android.play.core.appupdate.AppUpdateManagerFactory.create(this)
+        checkAppUpdate()
+
         // 애플리케이션 클래스에서 의존성 가져오기
         val app = application as MarketApplication
         val repository = app.repository
@@ -106,6 +113,59 @@ class MainActivity : ComponentActivity() {
                         }
                     )
                 }
+            }
+        }
+    }
+
+    private fun checkAppUpdate() {
+        val appUpdateInfoTask = appUpdateManager.appUpdateInfo
+        appUpdateInfoTask.addOnSuccessListener { appUpdateInfo ->
+            if (appUpdateInfo.updateAvailability() == com.google.android.play.core.install.model.UpdateAvailability.UPDATE_AVAILABLE
+                && appUpdateInfo.isUpdateTypeAllowed(com.google.android.play.core.install.model.AppUpdateType.IMMEDIATE)
+            ) {
+                try {
+                    appUpdateManager.startUpdateFlowForResult(
+                        appUpdateInfo,
+                        com.google.android.play.core.install.model.AppUpdateType.IMMEDIATE,
+                        this,
+                        UPDATE_REQUEST_CODE
+                    )
+                } catch (e: Exception) {
+                    e.printStackTrace()
+                }
+            }
+        }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        if (::appUpdateManager.isInitialized) {
+            appUpdateManager.appUpdateInfo.addOnSuccessListener { appUpdateInfo ->
+                if (appUpdateInfo.updateAvailability() == com.google.android.play.core.install.model.UpdateAvailability.DEVELOPER_TRIGGERED_UPDATE_IN_PROGRESS) {
+                    try {
+                        appUpdateManager.startUpdateFlowForResult(
+                            appUpdateInfo,
+                            com.google.android.play.core.install.model.AppUpdateType.IMMEDIATE,
+                            this,
+                            UPDATE_REQUEST_CODE
+                        )
+                    } catch (e: Exception) {
+                        e.printStackTrace()
+                    }
+                }
+            }
+        }
+    }
+
+    @Deprecated("Deprecated in Java")
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: android.content.Intent?) {
+        @Suppress("DEPRECATION")
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == UPDATE_REQUEST_CODE) {
+            if (resultCode != RESULT_OK) {
+                // If update was cancelled or failed, show message and exit
+                Toast.makeText(this, "앱 사용을 위해 최신 버전 업데이트가 필수적입니다.", Toast.LENGTH_LONG).show()
+                finish()
             }
         }
     }
