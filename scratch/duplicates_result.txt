@@ -1,0 +1,141 @@
+Total rows: 1393
+Headers: ['\ufeff시장명', '시장유형', '소재지도로명주소', '소재지지번주소', '시장개설주기', '위도', '경도', '점포수', '취급품목', '사용가능상품권', '홈페이지주소', '공중화장실보유여부', '주차장보유여부', '개설연도', '전화번호', '데이터기준일자', '제공기관코드', '제공기관명']
+
+Groups with multiple entries: 29
+
+Base Name: 중앙시장 (12 entries)
+  - [Index 51] Name: 중앙시장, Cycle: 매일, Addr: 강원특별자치도 강릉시 금성로21, Lat: 37.75401611, Lon: 128.8986236
+  - [Index 154] Name: 중앙시장, Cycle: 매일, Addr: 경상북도 김천시 중앙시장4길 10, Lat: 36.11902271, Lon: 128.125383
+  - [Index 481] Name: 중앙시장, Cycle: 매일, Addr: 대구광역시 중구 경상감영길101, Lat: 35.87237538, Lon: 128.5931143
+  - [Index 508] Name: 중앙시장, Cycle: 매일, Addr: 대구광역시 북구 태전로 15, Lat: 35.9216581, Lon: 128.5449019
+  - [Index 929] Name: 중앙시장, Cycle: 매일, Addr: 전북특별차치도 익산시 중앙로 3길 27, Lat: 35.94206103, Lon: 126.9497282
+  - [Index 1071] Name: 중앙시장, Cycle: 매일, Addr: 전라남도 순천시 중앙시장길 18, Lat: 34.95326194, Lon: 127.4846047
+  - [Index 1081] Name: 중앙시장, Cycle: 매일, Addr: 전라남도 여수시 중앙로 43, Lat: 34.74059178, Lon: 127.7325592
+  - [Index 1111] Name: 중앙시장, Cycle: 매일, Addr: 인천광역시 동구 중앙로 68, Lat: 37.47535505, Lon: 126.6333376
+  - [Index 1168] Name: 중앙시장, Cycle: 매일, Addr: 충청북도 청주시 상당구 중앙로 18, Lat: 36.63883141, Lon: 127.4889294
+  - [Index 1221] Name: 중앙시장, Cycle: 매일, Addr: 경기도 동두천시 중앙로285번길 9, Lat: 37.90690295, Lon: 127.0537505
+  - [Index 1350] Name: 중앙시장, Cycle: 2일+7일, Addr: 경기도 안성시 장기로45번길 30, Lat: 37.00656227, Lon: 127.2687966
+  - [Index 1356] Name: 중앙시장, Cycle: 매일, Addr: 경기도 안양시 만안구 냉천로 196, Lat: 37.39757136, Lon: 126.919669
+
+Base Name: 역전시장 (5 entries)
+  - [Index 957] Name: 역전시장, Cycle: 매일, Addr: 전북특별차치도 김제시 중앙로 288, Lat: 35.79317122, Lon: 126.9016024
+  - [Index 1072] Name: 역전시장, Cycle: 매일, Addr: 전라남도 순천시 역전장길 9, Lat: 34.94374833, Lon: 127.5033333
+  - [Index 1141] Name: 역전시장, Cycle: 매일, Addr: 울산광역시 중구 구역전길 14, Lat: 35.55619602, Lon: 129.3284877
+  - [Index 1309] Name: 역전시장, Cycle: 매일, Addr: 경기도 수원시 팔달구 매산로 2-10, Lat: 37.26630163, Lon: 127.0023389
+  - [Index 1320] Name: 역전시장, Cycle: 3일+8일, Addr: 충청남도 예산군 예산읍 역전로 84, Lat: 36.68704166, Lon: 126.829854
+
+Base Name: 신중앙시장 (4 entries)
+  - [Index 489] Name: 신중앙시장, Cycle: 매일, Addr: 대전광역시 동구 중앙로200번길 85, Lat: 36.32729269, Lon: 127.4336344
+  - [Index 685] Name: 신중앙시장, Cycle: 매일, Addr: 서울특별시 중구 퇴계로85길 36, Lat: 37.56738265, Lon: 127.0197632
+  - [Index 1059] Name: 신중앙시장, Cycle: 매일, Addr: 전라남도 목포시 원산중앙로 51, Lat: 34.81025124, Lon: 126.3775235
+  - [Index 1138] Name: 신중앙시장, Cycle: 매일, Addr: 울산광역시 중구 구교로 35, Lat: 35.55546763, Lon: 129.3284115
+
+Base Name: 동부시장 (4 entries)
+  - [Index 594] Name: 동부시장, Cycle: 매일, Addr: 광주광역시 북구 중문로9번길 39, Lat: 35.1738826, Lon: 126.9163398
+  - [Index 883] Name: 동부시장, Cycle: 매일, Addr: 충청남도 보령시 구상가길 14-5, Lat: 36.34936157, Lon: 126.5970013
+  - [Index 1062] Name: 동부시장, Cycle: 매일, Addr: 전라남도 목포시 영산로257번길 14, Lat: 34.80467356, Lon: 126.3936914
+  - [Index 1158] Name: 동부시장, Cycle: 매일, Addr: 인천광역시 동구 샛골로 164-5, Lat: 37.47699523, Lon: 126.6452568
+
+Base Name: 평화시장 (3 entries)
+  - [Index 156] Name: 평화시장, Cycle: 5일+10일, Addr: 경상북도 김천시 김천로100, Lat: 36.12364342, Lon: 128.1130862
+  - [Index 537] Name: 평화시장, Cycle: 매일, Addr: 대구광역시 동구 아양로 9길 6-6, Lat: 35.88259424, Lon: 128.6193963
+  - [Index 682] Name: 평화시장, Cycle: 매일, Addr: 서울특별시 중구 청계천로 274, Lat: 37.56942974, Lon: 127.0080481
+
+Base Name: 자유시장 (3 entries)
+  - [Index 317] Name: 자유시장, Cycle: 매일, Addr: 경상남도 진주시 도동천로 95, Lat: 35.18016981, Lon: 128.1103469
+  - [Index 603] Name: 자유시장, Cycle: 매일, Addr: 강원특별자치도 원주시 중앙시장길 11, Lat: 37.35023035, Lon: 127.9486266
+  - [Index 1058] Name: 자유시장, Cycle: 매일, Addr: 전라남도 목포시 자유로 122, Lat: 34.79292001, Lon: 126.4030678
+
+Base Name: 서동시장 (3 entries)
+  - [Index 457] Name: 서동시장, Cycle: 매일, Addr: 부산광역시 금정구 서동로141번길 21, Lat: 35.21641237, Lon: 129.1023592
+  - [Index 624] Name: 서동시장, Cycle: 매일, Addr: 울산광역시 중구 동천5길 12, Lat: 35.58134597, Lon: 129.3469851
+  - [Index 930] Name: 서동시장, Cycle: 매일, Addr: 전북특별차치도 익산시 중앙로3길 39, Lat: 35.94271026, Lon: 126.950548
+
+Base Name: 신흥시장 (3 entries)
+  - [Index 698] Name: 신흥시장, Cycle: 매일, Addr: 서울특별시 용산구 신흥로 95-9, Lat: 37.54531838, Lon: 126.9850858
+  - [Index 1133] Name: 신흥시장, Cycle: 매일, Addr: 인천광역시 중구 도원로 15-1, Lat: 37.46605786, Lon: 126.6366385
+  - [Index 1226] Name: 신흥시장, Cycle: 매일, Addr: 경기도 부천시 오정구 평천로 719, Lat: 37.51533645, Lon: 126.7705849
+
+Base Name: 덕산시장 (2 entries)
+  - [Index 48] Name: 덕산시장, Cycle: 4일+9일, Addr: 경상남도 산청군 시천면 남명로 188-5, Lat: 35.2770275, Lon: 127.8377507
+  - [Index 1319] Name: 덕산시장, Cycle: 4일+9일, Addr: 충청남도 예산군 덕산면 읍내서길 2-1, Lat: 36.70498477, Lon: 126.6681533
+
+Base Name: 남부시장 (2 entries)
+  - [Index 85] Name: 남부시장, Cycle: 매일, Addr: 경상북도 포항시 남구 상공로43, Lat: 36.01262132, Lon: 129.3561505
+  - [Index 553] Name: 남부시장, Cycle: 매일, Addr: 대구광역시 남구 현충로 19길43, Lat: 35.84140021, Lon: 128.5769336
+
+Base Name: 교동시장 (2 entries)
+  - [Index 145] Name: 교동시장, Cycle: 매일, Addr: 전라남도 여수시 교동시장1길 17-6, Lat: 34.73896529, Lon: 127.730219
+  - [Index 468] Name: 교동시장, Cycle: 매일, Addr: 대구광역시 중구 교동길 40 (교동시장), Lat: 35.8732548, Lon: 128.5967856
+
+Base Name: 인동시장 (2 entries)
+  - [Index 151] Name: 인동시장, Cycle: 2일+7일, Addr: 경상북도 구미시 인동중앙로5길 16-3, Lat: 36.10819473, Lon: 128.4209289
+  - [Index 440] Name: 인동시장, Cycle: 매일, Addr: 대전광역시 동구 대전천동로 452, Lat: 36.3225352, Lon: 127.4359133
+
+Base Name: 서면시장 (2 entries)
+  - [Index 223] Name: 서면시장, Cycle: 5일+10일, Addr: 경상북도 경주시 서면 내서로 401-5, Lat: 35.89506107, Lon: 129.0480446
+  - [Index 400] Name: 서면시장, Cycle: 매일, Addr: 부산광역시 부산진구 서면로 56, Lat: 35.15565904, Lon: 129.0581395
+
+Base Name: 마천시장 (2 entries)
+  - [Index 231] Name: 마천시장, Cycle: 5일+10일, Addr: 경상남도 창원시 진해구 웅동로 57번가길 7, Lat: 35.12557099, Lon: 128.7822355
+  - [Index 728] Name: 마천시장, Cycle: 매일, Addr: 서울특별시 송파구 마천로45길 29, Lat: 37.49837418, Lon: 127.1508638
+
+Base Name: 웅천시장 (2 entries)
+  - [Index 232] Name: 웅천시장, Cycle: 4일+9일, Addr: 경상남도 창원시 진해구 웅천중로56번길 8, Lat: 35.11102245, Lon: 128.7509028
+  - [Index 888] Name: 웅천시장, Cycle: 2일+7일, Addr: 충청남도 보령시 웅천읍 장터4길 24, Lat: 36.23298807, Lon: 126.6012701
+
+Base Name: 중부시장 (2 entries)
+  - [Index 233] Name: 중부시장, Cycle: 매일, Addr: 경상남도 창원시 진해구 중초로 20, Lat: 35.15506526, Lon: 128.6815616
+  - [Index 679] Name: 중부시장, Cycle: 매일, Addr: 서울특별시 중구 을지로36길 35, Lat: 37.56506017, Lon: 127.0019016
+
+Base Name: 양곡시장 (2 entries)
+  - [Index 263] Name: 양곡시장, Cycle: 매일, Addr: 경상남도 창원시 성산구 신촌로102, Lat: 35.20085109, Lon: 128.628329
+  - [Index 1217] Name: 양곡시장, Cycle: 매일, Addr: 경기도 김포시 양촌읍 양곡1로 42-2, Lat: 37.65446014, Lon: 126.6238008
+
+Base Name: 구암시장 (2 entries)
+  - [Index 279] Name: 구암시장, Cycle: 매일, Addr: 경상남도 창원시 마산 회원구 구암남 14길 8, Lat: 35.24953898, Lon: 128.5996435
+  - [Index 543] Name: 구암시장, Cycle: 매일, Addr: 대구광역시 북구 태암남로11길 18, Lat: 35.926612, Lon: 128.5541609
+
+Base Name: 신평시장 (2 entries)
+  - [Index 307] Name: 신평시장, Cycle: 3일+8일, Addr: 경상남도 양산시 하북면 신평강변3길 11, Lat: 35.49059663, Lon: 129.0858533
+  - [Index 880] Name: 신평시장, Cycle: 5일+10일, Addr: 충청남도 당진시 신평면 신평로 804-1, Lat: 36.88353946, Lon: 126.7759775
+
+Base Name: 대곡시장 (2 entries)
+  - [Index 312] Name: 대곡시장, Cycle: 1일+6일, Addr: 경상남도 진주시 대곡면 진의로 1079번길 6, Lat: 35.26370317, Lon: 128.168562
+  - [Index 564] Name: 대곡시장, Cycle: 매일, Addr: 대구광역시 달서구 도원로24, Lat: 35.80758537, Lon: 128.535454
+
+Base Name: 사직시장 (2 entries)
+  - [Index 429] Name: 사직시장, Cycle: 매일, Addr: 부산광역시 동래구 사직북로34번길 48, Lat: 35.20005107, Lon: 129.0623223
+  - [Index 1171] Name: 사직시장, Cycle: 매일, Addr: 충청북도 청주시 서원구 사직대로 265번길 7, Lat: 36.63614197, Lon: 127.4768752
+
+Base Name: 강남시장 (2 entries)
+  - [Index 446] Name: 강남시장, Cycle: 매일, Addr: 경기도 부천시 원미구 옥산로154번길 21, Lat: 37.50749709, Lon: 126.7814665
+  - [Index 826] Name: 강남시장, Cycle: 매일, Addr: 서울특별시 강남구 압구정로 2길 46, Lat: 37.51876501, Lon: 127.020678
+
+Base Name: 황금시장 (2 entries)
+  - [Index 466] Name: 황금시장, Cycle: 매일, Addr: 대구광역시 수성구 청솔로 19, Lat: 35.84839977, Lon: 128.6199562
+  - [Index 1344] Name: 황금시장, Cycle: 5일+10일, Addr: 경상북도 김천시 황금시장4길20, Lat: 36.11666261, Lon: 128.1252827
+
+Base Name: 삼성시장 (2 entries)
+  - [Index 502] Name: 삼성시장, Cycle: 매일, Addr: 대구광역시 북구 칠성시장로 42, Lat: 35.87781555, Lon: 128.6034764
+  - [Index 1256] Name: 삼성시장, Cycle: 1일+6일, Addr: 충청북도 음성군 삼성면 대성로 608-2, Lat: 37.01800836, Lon: 127.4991966
+
+Base Name: 동서시장 (2 entries)
+  - [Index 536] Name: 동서시장, Cycle: 매일, Addr: 대구광역시 동구 아양로 37길51-1, Lat: 35.88820415, Lon: 128.6333749
+  - [Index 746] Name: 동서시장, Cycle: 매일, Addr: 서울특별시 동대문구 왕산로33길 13, Lat: 37.57972118, Lon: 127.0412198
+
+Base Name: 병영시장 (2 entries)
+  - [Index 620] Name: 병영시장, Cycle: 매일, Addr: 울산광역시 중구 병영로14, Lat: 35.57055602, Lon: 129.3462842
+  - [Index 1086] Name: 병영시장, Cycle: 3일+8일, Addr: 전라남도 강진군 병영면 남삼인길 6, Lat: 34.71380066, Lon: 126.8155558
+
+Base Name: 제일시장 (2 entries)
+  - [Index 703] Name: 제일시장, Cycle: 매일, Addr: 서울특별시 은평구 통일로 731, Lat: 37.61062032, Lon: 126.9294636
+  - [Index 1037] Name: 제일시장, Cycle: 매일, Addr: 전라남도 여수시 학동2길 7-4, Lat: 34.76419231, Lon: 127.6646531
+
+Base Name: 북부시장 (2 entries)
+  - [Index 1029] Name: 북부시장, Cycle: 매일, Addr: 충청북도 청주시 청원구 향군로 31번길 19, Lat: 36.64797204, Lon: 127.4862188
+  - [Index 1328] Name: 북부시장, Cycle: 4일+9일, Addr: 전북특별차치도 익산시 인북로 219, Lat: 35.94821919, Lon: 126.9565852
+
+Base Name: 현대시장 (2 entries)
+  - [Index 1159] Name: 현대시장, Cycle: 매일, Addr: 인천광역시 동구 송림로109번길 21, Lat: 37.47748437, Lon: 126.646125
+  - [Index 1282] Name: 현대시장, Cycle: 매일, Addr: 경기도 성남시 수정구 수정북로18, Lat: 37.4417019, Lon: 127.1319748

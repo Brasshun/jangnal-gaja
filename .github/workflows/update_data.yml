@@ -1,0 +1,40 @@
+name: Weekly Traditional Market Data Update
+
+on:
+  schedule:
+    - cron: '0 15 * * 0' # 한국 시간 매주 월요일 00:00 (UTC 15:00)
+  workflow_dispatch: # 수동 실행 기능 제공
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Fetch and Clean Data
+        env:
+          API_KEY: ${{ secrets.PUBLIC_DATA_API_KEY }}
+        run: |
+          python scratch/update_and_clean.py
+
+      - name: Update GitHub Gist
+        env:
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          GIST_ID: "ad574306a1414bf4bf60dc38416683f4"
+        run: |
+          # API call to update the specific Gist file programmatically
+          curl -X PATCH \
+            -H "Authorization: token $GIST_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "{\"files\": {\"markets.json\": {\"content\": $(cat scratch/markets_clean.json | jq -Rs .)}}}" \
+            https://api.github.com/gists/$GIST_ID
