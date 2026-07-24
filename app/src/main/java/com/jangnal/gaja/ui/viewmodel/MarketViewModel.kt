@@ -1,11 +1,13 @@
 package com.jangnal.gaja.ui.viewmodel
 
 import android.content.Context
+import android.widget.Toast
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.jangnal.gaja.data.local.entity.Market
 import com.jangnal.gaja.data.repository.MarketRepository
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -14,6 +16,7 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import java.util.Calendar
 
 class MarketViewModel(
@@ -109,7 +112,12 @@ class MarketViewModel(
             // Trigger background Gist sync periodically
             launch {
                 val gistUrl = "https://gist.githubusercontent.com/Brasshun/ad574306a1414bf4bf60dc38416683f4/raw/markets.json"
-                repository.syncDataFromJson(gistUrl, context)
+                val result = repository.syncDataFromJson(gistUrl, context)
+                if (result) {
+                    withContext(Dispatchers.Main) {
+                        Toast.makeText(context, "최신 장날 정보가 업데이트되었습니다. 🏪", Toast.LENGTH_SHORT).show()
+                    }
+                }
             }
         }
     }
